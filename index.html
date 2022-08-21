@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador</title>
+    <link href="style.css" rel="stylesheet" >
+</head>
+
+<body>     
+    <header class="header">
+         <img class="logo" src="./imagens/logo.png" alt="logo-alura">
+    </header>
+    <main> 
+        <div class="container">
+
+            <section class="input">
+                <textarea class="caixaTexto" id="inputMensagem" placeholder="Digite seu texto"></textarea>
+                <div class="info">
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <div class="botoes">
+                    <botton class="botaoAnimado-1" id="botao-criptografar"> Criptografar</botton>
+                    <botton class="botaoAnimado-2" id="botao-descriptografar">Descriptografar</botton>
+                </div>
+            </section>
+        
+            <section class="output">
+                <div class="outputMensagem">
+                    <textarea class="outputResultado" id="resultado"  placeholder="Digite o texto que você deseja criptografar ou descriptografar." readonly></textarea>  
+                </div>
+                <button class="botaoCopia" id="botao-copy">Copiar</button>
+            </section>
+        
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Desenvolvido por Iago Oliveira - ONE Oracle Next Education T3 + Alura</p>        
+    </footer>
+     <script src="script.js"></script>
+
+    </body>
+
+</html>
